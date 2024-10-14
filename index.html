@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<title>main project</title>
+
+	<style type="text/css">
+/*	div{
+			border:1px solid red;
+			min-height:100px;*/
+		
+		
+.bg-custom {
+  background-color:#333; 
+  padding: 10px;
+}
+.navbar-brand{
+	color:rgb(62,62,255);
+}
+ .nav-link, .dropdown-item{
+	color:#fff;
+}
+.nav-link:hover,.dropdown-item:hover{
+	color:rgb(62,62,255);
+}
+
+.dropdown-menu {
+  background-color: #222;
+}
+.navbar-toggler {
+  border-color: #fff;
+}
+.container {
+  object-fit:cover;
+  object-position:center ;
+}
+.video-fluid {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height:70vh;
+}
+.overlay{
+	background-color:rgba(0, 0, 0, 0.1) ;
+	height:70vh;
+	width:100%;
+	color:white;
+}
+.pix{
+	align-self:flex-start;
+	border:0px solid blue;
+}
+.carousel-inner img {
+  height: 90vh !important;
+  object-fit: cover;
+  width: 100%;
+}
+.font, .font1{
+	font-size: 20px;
+}
+
+.light-blue-bg {
+  background-color: #F0F6F6; 
+}
+.cont:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.vit h2{
+	font-size:40px;
+}
+ .footer{
+	background-color:#0F084B ;
+	color:white;
+}
+
+body {
+  font-family: "Open Sans", Lato, Montserrat, Arial, sans-serif;
+ 
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12" >
+				<nav class="navbar navbar-expand-lg bg-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">VITALITY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bare" >
+        <li class="nav-item">
+           <a class="nav-link" href="#">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Care at Vitality clinic
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">patient centered care</a></li>
+            <li><a class="dropdown-item" href="#">Request Appointment</a></li>
+            
+            
+             <li><a class="dropdown-item" href="#">Find A Doctor</a></li>
+             <li><a class="dropdown-item" href="#">billing and Isurance</a></li>
+          </ul>
+        </li>
+
+         
+         <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+
+    </div>
+  </div>
+</nav>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="container d-flex justify-content-center align-items-center position-relative">
+      <video controls muted loop autoplay class="video-fluid">
+        <source src="image/hos.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay text-center position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column">
+      	<div class="vit">
+        <h2>VITALITY CLINIC</h2>
+        <p>Transforming Your Care</p>
+      </div>
+      <div class="pix offset-1 mt-5 pt-5">
+      	<button class="btn btn-primary pt-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Request Appointment</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Set your appointment request here</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul>
+    	<li><a href="#"> New Patient</a> </li>
+    	<li><a href="#">Returning Patient</a></li>
+    	<li><a href="#">Referring Physician</a> </li>
+    </ul>
+  </div>
+</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+		
+
+					
+      
+      	
+					
+				
+				
+			
+		
+
+
+
+
+
+
+		<div class="light-blue-bg container-fluid p-5">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="d-flex justify-content-center" >
+					<h1 class="p-3">Healing starts here</h1>
+				</div>
+						<div>
+							<p class="pl-2">
+							<h4>The right answers the first time</h4>
+							<p>Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges.</p>
+							<h4>Top-ranked in Nigeria</h4>
+							<p>Vitality Clinic has more No. 1 rankings than any other hospital in the nation according to World 	Report.</p>
+							<a href="#" class="text-decoration-none">Learn more about our top-ranked specialties.</a>
+							</p>
+							</div>
+
+				
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+			<div class="col-md-6">
+				<div>
+					<img src="image/hosp1.jpg" class="img-fluid">
+				
+			</div>
+		
+		</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row">
+			<div class="col-md-12">
+				
+				<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/coua.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/coux.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/couy.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+			</div>			
+		</div>
+
+
+
+		
+
+		<div class="row" class="first">
+			<div class="d-flex justify-content-center align-items-center">
+				<h1>ABOUT US</h1></div>
+
+			<div class="col-md-6 d-flex flex-column justify-content-center align-items-center" >
+				<div>
+					<h2>We are developing a healthcare
+							system around you</h2>
+				</div>
+				<div>
+					<p  class="font">We think that everyone should have easy access to excellent
+							healthcare. Our aim is to make the procedure as simple as
+							possible for our patients and to offer treatment no matter
+							where they are — in person or at their convenience.</p>
+
+				</div>
+			</div>
+
+
+
+			<div class="col-md-6">
+				<div>
+				 <img src="image/hosp4.png" class="img-fluid rounded"  alt="CEO">
+
+				</div>
+			</div>
+		</div>
+	
+
+
+
+
+		
+
+		<div class="row mt-5 first">
+  <div class="col-12 text-center">
+    <h1>OUR DEPARTMENTS</h1>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6 col-md-2 mb-4">
+      <div class="cont text-center">
+        <img src="image/eye.png" class="img-fluid rounded" alt="eye">
+        <a href="#" class="text-decoration-none"><h4>Eye Care</h4></a>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+      <div class="cont text-center">
+        <img src="image/cad.png" class="img-fluid rounded" alt="cad">
+        <a href="#" class="text-decoration-none"><h4>Cardiac Care</h4></a>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+      <div class="cont text-center">
+        <img src="image/brain.jpeg" class="img-fluid rounded" 
+        alt="brain">
+        <a href="#" class="text-decoration-none"><h4>Neurology</h4></a>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+      <div class="cont text-center">
+        <img src="image/heart.jpeg" class="img-fluid rounded" alt="heart">
+        <a href="#" class="text-decoration-none"><h4>Heart Care</h4></a>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+      <div class="cont text-center">
+        <img src="image/oste.png" class="img-fluid rounded" alt="osteporosis">
+        <a href="#" class="text-decoration-none"><h4>Osteporosis</h4></a>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+      <div class="cont text-center">
+        <img src="image/ent.png" class="img-fluid rounded" alt="ent">
+        <a href="#" class="text-decoration-none"><h4>ENT</h4></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	
+
+
+		<div class="row mt-5">
+			<div class="d-flex  justify-content-center align-items-center" >
+				<h1>TESTIMONIALS</h1></div>
+			<div class="col-md-4 d-flex flex-column justify-content-center align-items-center" >
+				<div>
+					<img src="image/test.png" class="img-fluid thumbnail" alt="ent">
+				</div>
+				<div>
+					<h4>Edward Newgate</h4>
+					<p>Founder Circle</p>
+				</div>
+				
+			</div>
+
+
+
+
+			<div class="col-md-8">
+				<div class="d-flex align-items-center "><h4 class="pt-5">Fantastic Response</h4></div>
+				<div>
+					 <span class="text-warning">&#9733;</span> 
+						<span class="text-warning">&#9733;</span> 
+						<span class="text-warning">&#9733;</span> 
+						<span class="text-warning">&#9733;</span> 
+						<span>&#9734;</span>
+
+				</div>
+				<div>
+					<p class="font1">
+						This medical and health care facility distinguishes itself from the competition by providing technologically advanced medical and health care. A mobile app and a website are available via which you can easily schedule appointments, get online consultations, and see physicians, who will assist you through the whole procedure. And all of the prescriptions, medications, and other services they offer are 100% genuine, medically verified, and proved. I believe that the Livedoc staff is doing an outstanding job. Highly recommended their health care services.
+					</p>
+				</div>
+			</div>
+		</div>
+
+<div class="row mt-5">
+  <div class="col-12 text-center mb-4">
+    <h2>Meet Our Doctors</h2>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-4">
+      <div class="text-center">
+        <img src="image/anita g.png" class="img-fluid thumbnail" alt="ent">
+      </div>
+      <h3 class="text-center">Anita Graham</h3>
+      <div class="text-center">
+        <p>Cardiologist, Gochi Medicine</p>
+        <p>Florida, United States</p>
+        <p>10 Years Experience</p>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-primary">View Profile</button>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="text-center">
+        <img src="image/jane.png" class="img-fluid thumbnail" alt="jane">
+      </div>
+      <h3 class="text-center">Jane Woodlock</h3>
+      <div class="text-center">
+      	<p>Gynecologist, Gochi Medicine</p>
+        <p>Melbourne, Australia</p>
+        <p>12 Years Experience</p>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-primary">View Profile</button>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="text-center">
+        <img src="image/benedict.png" class="img-fluid thumbnail" alt="benedict">
+      </div>
+      <h3 class="text-center">Edward Newgate</h3>
+      <div class="text-center">
+        <p>Neurologist</p>
+        <p>Florida, United States</p>
+        <p>25 Years Experience</p>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-primary">View Profile</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row mt-5">
+	<div class="d-flex justify-content-center align-items-center"><h2>REQUEST APPOINTMENT</h2></div>
+	<div class="col-md-6 mt-5">
+			
+<form class="form-horizontal">
+  <div class="form-group row">
+    <div class="col-sm-6">
+      <label>Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter Name">
+    </div>
+    <div class="col-sm-6">
+      <label>Phone:</label>
+      <input type="tel" class="form-control" id="phone" placeholder="Enter Phone Number">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <div class="col-sm-6">
+      <label>Category:</label>
+      <select class="form-control" id="category">
+        <option value="">Select Category</option>
+        <option value="general">General Inquiry</option>
+        <option value="support">Support Request</option>
+        <option value="feedback">Feedback</option>
+      </select>
+    </div>
+    	 <div class="col-sm-6">
+      <label>Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Email">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <label>Message:</label>
+      <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <div class="col-sm-12 text-center">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+</form>
+
+	</div>
+	<div class="col-md-6">
+		<img src="image/Appointment.png" class="img-fluid thumbnail" alt="Appointment">
+	</div>
+
+</div>
+</div>
+
+
+
+	<div class="footer">
+  <div class="row">
+    <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+      <h3>VITALITY</h3>
+      <p class="text-center">The world's most telehealth company.</p>
+    </div>
+    <div class="col-12 col-md-8">
+      <div class="row">
+        <div class="col-6 col-md-4 d-flex flex-column justify-content-center align-items-center">
+          <h4 class="pt-2">Departments</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">Heart Care</a></li>
+            <li><a href="#" class="text-decoration-none">Cardiac Care</a></li>
+            <li><a href="#" class="text-decoration-none">Eye Care</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 d-flex flex-column justify-content-center align-items-center">
+        	<h4 class="pt-2">Membership</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">Free Trial</a></li>
+            <li><a href="#" class="text-decoration-none">Silver</a></li>
+            <li><a href="#" class="text-decoration-none">Premium</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 d-flex flex-column justify-content-center align-items-center">
+          <h4 class="pt-2">Customer Care</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+            <li><a href="#" class="text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-decoration-none">Get Update</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+ <div class="row mt-5">
+ 		<div class="col-md-6 mt-5 mr-3">
+ 			<div class="d-flex justify-content-center align-items-center">
+ 				<h4 class="pr-4">Follow Vitality Clinic</h4>
+ 			</div>
+
+ 			
+     	<div class="d-flex  justify-content-center align-items-center">
+				<a href="your-instagram-url" target="_blank">
+				<img src="image/dev9.jpg" alt="Instagram Logo" width="24" height="24">
+				</a>
+				<a href="your-whatsapp-url" target="_blank">
+				<img src="image/dev10.jpg" alt="Whastapp Logo" width="24" height="24">
+				</a>
+				<a href="your-whatsapp-url" target="_blank">
+				<img src="image/x.png" alt="Whastapp Logo" width="24" height="24">
+				</a>
+				
+				</div>
+    
+
+ 			
+
+
+ 		</div>
+ 		<div class="col-md-6 mt-3">
+  <div class="d-flex justify-content-center align-items-center mb-4">
+    <h4>Contact Us</h4>
+  </div>
+  <div>
+    <form id="contact-form" class="needs-validation">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" class="form-control" required></textarea>
+      </div>
+      <div class="d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary">Send Message</button></div>
+    </form>
+  </div>
+</div>
+
+ </div>
+
+
+
+
+<div class="rol mt-5">
+	<div class="col-md-12">
+		<div class="d-flex justify-content-center align-items-center" class="fut">
+			<h2 style="font-size: 16px;">&#169 2024 | All Rights Reserved</h2></div>
+	</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<script src="bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
